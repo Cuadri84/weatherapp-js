@@ -30,6 +30,9 @@ body{
     justify-content: center;
     border-bottom: 1px solid #bfbfbf;
 }
+.wrapper i{
+ cursor: pointer;
+}
 
 .wrapper.active header{
     font-size: 30px;
@@ -45,7 +48,7 @@ body{
     display: none;
 }
 
-.input-part .info-text{
+.input-part .info-txt{
     display: none;
     font-size: 17px;
     text-align: center;
@@ -54,14 +57,14 @@ body{
     margin-bottom: 15px;
 }
 
-.info-text.error{
+.info-txt.error{
     display: block;
     color: rgb(183, 22, 22);
     background: rgb(245, 137, 137);
     border: 1px solid #f5c6cb;
 }
 
-.info-text.pending{
+.info-txt.pending{
     display: block;
     color: #0c5460;
     background: #b5d7dd;
